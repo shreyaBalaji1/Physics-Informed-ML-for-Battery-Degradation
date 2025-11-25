@@ -16,22 +16,22 @@ Key highlights:
 
 Model Performance
 <details> <summary>Click to expand</summary>
-Model	R² Score	MAE	MAPE	RMSE
-CNN	0.9800	0.01495	0.02549	0.02811
-LSTM	0.9239	0.01429	0.01843	0.02413
-MLP	0.8030	0.03335	0.04534	0.04640
-Attention	0.9302	0.02034	0.03189	0.03397
+- Model	R² Score	MAE	MAPE	RMSE
+- CNN	0.9800	0.01495	0.02549	0.02811
+- LSTM	0.9239	0.01429	0.01843	0.02413
+- MLP	0.8030	0.03335	0.04534	0.04640
+- Attention	0.9302	0.02034	0.03189	0.03397
 </details>
 
 ---
 
 Methodology
 <details> <summary>Click to expand</summary>
-Preprocessing: Min-Max scaling; removed outliers and noisy points.
-Loss function: Huber loss to handle outliers robustly.
-Data split: 90/10 training/testing.
-Training: Batch processing via DataLoaders; GPU-enabled.
-Benchmarking: Multiple runs for consistency across datasets.
+- Preprocessing: Min-Max scaling; removed outliers and noisy points.
+- Loss function: Huber loss to handle outliers robustly.
+- Data split: 90/10 training/testing.
+- Training: Batch processing via DataLoaders; GPU-enabled.
+- Benchmarking: Multiple runs for consistency across datasets.
 </details>
 
 ---
