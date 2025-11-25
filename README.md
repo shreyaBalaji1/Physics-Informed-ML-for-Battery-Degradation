@@ -26,13 +26,11 @@ Model Performance
 ---
 
 Methodology
-<details> <summary>Click to expand</summary>
 - Preprocessing: Min-Max scaling; removed outliers and noisy points.
 - Loss function: Huber loss to handle outliers robustly.
 - Data split: 90/10 training/testing.
 - Training: Batch processing via DataLoaders; GPU-enabled.
 - Benchmarking: Multiple runs for consistency across datasets.
-</details>
 
 ---
 
